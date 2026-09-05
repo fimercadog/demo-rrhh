@@ -1,21 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fbf7f8;
-  --foreground: #26262e;
+  --background: #f7f5ed;
+  --foreground: #171717;
   --card: #ffffff;
-  --card-foreground: #26262e;
-  --primary: #a3175a;
+  --card-foreground: #171717;
+  --primary: #1644d8;
   --primary-foreground: #ffffff;
-  --muted: #f3eaee;
-  --muted-foreground: #7a6b71;
-  --border: #e7dce0;
-  --accent: #f7e4ec;
+  --muted: #eef1fb;
+  --muted-foreground: #5b6472;
+  --border: #e4e7ee;
+  --accent: #e7edfc;
   --destructive: #c23b2b;
-  --navy: #26262e;
+  --navy: #171717;
   --success: #0e8f5c;
   --warning: #b9770e;
-  --marketing-shadow: 0 24px 70px rgb(38 20 30 / 14%);
+  --marketing-shadow: 0 24px 70px rgb(23 23 23 / 14%);
 }
 
 @theme inline {
@@ -81,7 +81,7 @@
 }
 
 .animate-marketing-gradient-text {
-  background-image: linear-gradient(90deg, var(--primary), #e8579a, var(--navy), var(--primary));
+  background-image: linear-gradient(90deg, var(--primary), #4d7cff, var(--navy), var(--primary));
   background-size: 200% auto;
   background-clip: text;
   -webkit-background-clip: text;
@@ -90,17 +90,18 @@
 }
 
 .dark {
-  --background: #17151a;
-  --foreground: #edeaec;
-  --card: #211f26;
-  --card-foreground: #edeaec;
-  --primary: #e8579a;
-  --primary-foreground: #2b0f1c;
-  --muted: #2a2731;
-  --muted-foreground: #b3a6ac;
-  --border: #332e36;
-  --accent: #3a1f2c;
+  --background: #121316;
+  --foreground: #f0eee6;
+  --card: #1c1e24;
+  --card-foreground: #f0eee6;
+  --primary: #4d7cff;
+  --primary-foreground: #0b1220;
+  --muted: #23262e;
+  --muted-foreground: #a9b0bd;
+  --border: #2b2e36;
+  --accent: #1b2440;
   --destructive: #f97066;
+  --navy: #f0eee6;
   --success: #34d399;
   --warning: #fbbf24;
 }

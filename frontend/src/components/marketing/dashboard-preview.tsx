@@ -17,7 +17,7 @@ export function DashboardPreview() {
       animate={{ y: [0, -10, 0] }}
       transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
     >
-      <div className="rounded-3xl bg-[#fdf6f8] p-4">
+      <div className="rounded-3xl bg-muted p-4">
         <div className="mb-4 flex items-center justify-between">
           <div>
             <p className="text-xs font-semibold uppercase text-primary">Dashboard RRHH</p>
