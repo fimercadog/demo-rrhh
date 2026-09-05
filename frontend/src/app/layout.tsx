@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://dfctalentohumano.fidelmercadotech.com"),
   title: {
-    default: "DFC Talento Humano | Software de Recursos Humanos para empresas",
-    template: "%s | DFC Talento Humano",
+    default: "Demo RRHH | Software de Recursos Humanos para empresas",
+    template: "%s | Demo RRHH",
   },
   description: "Centraliza empleados, asistencia, vacaciones, documentos, turnos, reclutamiento, reportes e IA para Recursos Humanos.",
   openGraph: {
-    title: "DFC Talento Humano",
+    title: "Demo RRHH",
     description: "Software moderno de Recursos Humanos para empresas.",
     type: "website",
     locale: "es_CO",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "DFC Talento Humano",
+    title: "Demo RRHH",
     description: "Software moderno de Recursos Humanos para empresas.",
   },
 };

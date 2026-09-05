@@ -1,4 +1,4 @@
-# Paleta De Colores — DFC Talento Humano
+# Paleta De Colores — Demo RRHH
 
 Extraida del logo de marca (grafito + magenta) y aplicada como tokens CSS en
 `frontend/src/app/globals.css`, consumidos por Tailwind via `@theme inline`.

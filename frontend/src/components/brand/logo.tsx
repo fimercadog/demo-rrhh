@@ -32,7 +32,7 @@ export function Logo({ size = "md", className }: { size?: keyof typeof heights; 
         <LogoGlyph />
       </span>
       <span className={cn("font-semibold leading-none text-foreground", size === "sm" ? "text-base" : size === "md" ? "text-lg" : size === "lg" ? "text-xl" : "text-2xl")}>
-        DFC Talento Humano
+        Demo RRHH
       </span>
     </span>
   );

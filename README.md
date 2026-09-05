@@ -1,8 +1,8 @@
-# DFC Talento Humano — Plataforma de Recursos Humanos
+# Demo RRHH — Plataforma de Recursos Humanos
 
 Monorepo de un sistema HRMS (Human Resources Management System) para PYMES:
 API REST en Laravel + panel privado y sitio público de marketing en Next.js.
-Marca actual: **DFC Talento Humano**.
+Marca actual: **Demo RRHH**.
 
 - `backend/` — Laravel 12 (PHP 8.2+), API REST, Sanctum, Spatie `laravel-permission`.
 - `frontend/` — Next.js 16 (App Router, TypeScript, TailwindCSS v4), panel privado `/app` + sitio público de marketing.
@@ -86,7 +86,7 @@ cambiarla).
 | [docs/modules.md](docs/modules.md) | Módulos del panel privado |
 | [docs/roles-permissions.md](docs/roles-permissions.md) | Roles y permisos (Spatie) |
 | [docs/demo-users.md](docs/demo-users.md) | Usuarios de prueba por rol |
-| [docs/color-palette.md](docs/color-palette.md) | Paleta de marca DFC Talento Humano |
+| [docs/color-palette.md](docs/color-palette.md) | Paleta de marca Demo RRHH |
 | [docs/hostinger-deployment.md](docs/hostinger-deployment.md) | Despliegue real en producción (Hostinger) |
 | [docs/development-status.md](docs/development-status.md) | Qué está implementado, parcial y pendiente |
 

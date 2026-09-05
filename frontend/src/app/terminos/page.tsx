@@ -4,7 +4,7 @@ import { LegalPage } from "@/components/marketing/legal-page";
 export const metadata: Metadata = {
   title: "Terminos y Condiciones",
   description:
-    "Condiciones de uso del sitio web de DFC Talento Humano y de las solicitudes de informacion y demostracion.",
+    "Condiciones de uso del sitio web de Demo RRHH y de las solicitudes de informacion y demostracion.",
 };
 
 export default function TermsPage() {
@@ -12,7 +12,7 @@ export default function TermsPage() {
     <LegalPage
       title="Terminos y Condiciones"
       updated="30 de agosto de 2026"
-      intro="Estos terminos regulan el acceso y uso del sitio web de DFC Talento Humano, operado por [Razon social], NIT [NIT]. Al navegar el sitio o enviar un formulario aceptas estos terminos."
+      intro="Estos terminos regulan el acceso y uso del sitio web de Demo RRHH, operado por [Razon social], NIT [NIT]. Al navegar el sitio o enviar un formulario aceptas estos terminos."
       sections={[
         {
           heading: "1. Objeto del sitio",

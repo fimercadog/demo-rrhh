@@ -36,7 +36,7 @@ export default function OpengraphImage() {
           D
         </div>
         <div style={{ display: "flex", fontSize: 64, fontWeight: 700, color: "#171717" }}>
-          DFC Talento Humano
+          Demo RRHH
         </div>
         <div style={{ display: "flex", marginTop: 20, fontSize: 32, color: "#5f4f56", maxWidth: 820 }}>
           Software de Recursos Humanos para empresas: empleados, asistencia, vacaciones y mas.

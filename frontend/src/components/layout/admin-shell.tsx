@@ -280,12 +280,12 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
       <LogoMark size="sm" />
       <div>
         <p className="flex items-center gap-1.5 text-sm font-semibold text-foreground">
-          DFC
+          Demo
           <span className="rounded bg-warning/15 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-warning">
             Beta
           </span>
         </p>
-        <p className="text-xs text-muted-foreground">Talento Humano</p>
+        <p className="text-xs text-muted-foreground">RRHH</p>
       </div>
     </div>
   );
@@ -350,7 +350,7 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
               <Menu className="h-4 w-4" />
             </Button>
             <div className="min-w-0 max-w-24 sm:max-w-none">
-              <p className="truncate text-sm font-medium">{user?.company?.name ?? "DFC Talento Humano"}</p>
+              <p className="truncate text-sm font-medium">{user?.company?.name ?? "Demo RRHH"}</p>
               <p className="hidden truncate text-xs text-muted-foreground sm:block">
                 Panel privado de Recursos Humanos
               </p>

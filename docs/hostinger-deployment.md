@@ -101,7 +101,7 @@ disponibles en el servidor — no hizo falta pedir nada especial.
 ### `.env` de produccion usado
 
 ```env
-APP_NAME="DFC Talento Humano"
+APP_NAME="Demo RRHH"
 APP_ENV=production
 APP_KEY=            # lo llena `php artisan key:generate --force`
 APP_DEBUG=false
